@@ -1,12 +1,11 @@
-print("Testando")
-idade = 8
+nomes = "Maxwell"
+print(nomes)
 
 class Pessoa:
     def _init_(self, nome, idade):
-        self.name - nome
+        self.name = nome
         self.age = idade
-
-pessoa = Pessoa("Maxwell", 36)
+pessoa = Pessoa("Max", 23)
 
 print(pessoa.name)
 print(pessoa.age)
